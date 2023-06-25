@@ -1,0 +1,677 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.abril-font {
+    font-family: "abril-text" !important;
+}
+
+.sofia-font {
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+.red-color {
+    color: #990033;
+}
+
+/*! Team Page Start */
+
+body {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 14px;
+    color: #020a20;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+}
+
+/*! Header - Hero - Navigation */
+
+.page-title {
+    font-family: "abril-text" !important;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    transition: 0.37s;
+}
+
+.hero {
+    width: 100%;
+    /* height: 320px; */
+    background-image: linear-gradient(to top, rgba(3, 10, 32, 0.8) 0, rgba(3, 10, 32, 0.7) 60%, rgba(3, 10, 32, 0.8) 100%), url("../img/hero.jpg");
+    background-position: top;
+    /* background-position: 50% 10%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lang {
+    margin-bottom: -15px;
+}
+
+.lang ul li {
+    display: inline-block;
+    margin-left: 2rem;
+    font-size: 12px;
+}
+
+.navbar {
+    margin-bottom: 100px;
+}
+
+.navbar-nav li {
+    margin-left: 1.5rem;
+}
+
+.navbar-nav li a {
+    color: white;
+    border: none;
+}
+
+.navbar-nav li a:hover {
+    color: #ffffff80;
+}
+
+.main {
+    margin: 4% 0 !important;
+}
+
+/*! Left Widget */
+
+.widget-title {
+    color: #990033;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+}
+
+.widget a {
+    text-decoration: none;
+    color: #a1a1a1;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+}
+
+.widget a:hover {
+    color: #990033;
+}
+
+.widget .active {
+    color: #990033;
+}
+
+.searchInput {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    color: #020a20;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    transition: 0.32s;
+}
+
+.selectInput {
+    color: #c1c1c1;
+    padding: 12px 10px !important;
+}
+
+.searchInput::placeholder {
+    color: #c1c1c1;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+}
+
+.searchInput:focus {
+    color: #020a20;
+    border-bottom-color: #020a20;
+    outline: none;
+}
+
+.searchBtn {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    width: 60px;
+    color: #c1c1c1;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    transition: 0.37s;
+}
+
+.searchBtn:hover {
+    background: black;
+    color: white;
+}
+
+.alfabetikLinks a {
+    display: inline-block;
+    text-decoration: none;
+    color: #020a20;
+    font-size: 15px;
+    line-height: 26px;
+    /* padding-right: 0.7rem; */
+    margin: 0 13px 12px 0 !important;
+}
+
+.alfabetikLinks a:hover {
+    color: #990033;
+}
+
+/*! Team Section */
+
+.teamCard h4 {
+    color: #020a20;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 5px 0 20px;
+    padding-top: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.37s;
+}
+
+.teamCard h4:hover {
+    color: #990033;
+}
+
+.teamCard p {
+    font-family: "abril-text" !important;
+    padding-bottom: 40px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/*! Footer */
+
+footer {
+    background-color: #020a20;
+    color: white;
+}
+
+footer .container {
+    width: 1183px;
+}
+
+.footer-title {
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.footer-title a {
+    text-decoration: none;
+    color: white;
+    transition: 0.37s;
+}
+
+.footer-title a:hover {
+    color: #a1a1a1
+}
+
+.footer-news .news-title a {
+    text-decoration: none;
+    color: white;
+    transition: 0.37s;
+}
+
+.footer-news .news-title a:hover {
+    color: #a1a1a1
+}
+
+.footer-news .news-content {
+    font-size: 11px;
+    margin-top: -5px !important;
+}
+
+.footer-news .news-date {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-right: 25px;
+    margin-top: -15px !important;
+}
+
+.footer-news .news-date i {
+    margin-right: 6px;
+    font-size: 12px;
+}
+
+.footer-news .news-date a {
+    text-decoration: none;
+    color: white;
+    transition: 0.37s;
+}
+
+.footer-news .news-date a:hover {
+    color: #a1a1a1
+}
+
+.footer-nav li {
+    list-style: none;
+    font-size: 11px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    transition: 0.37s;
+}
+
+.footer-nav a:hover {
+    color: #a1a1a1
+}
+
+footer .aboneForm input {
+    /* float: left; */
+    margin: 0;
+    padding: 0 12px;
+    width: 250px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 11px;
+    line-height: 35px;
+    background-color: transparent;
+}
+
+footer .aboneForm input:focus {
+    outline: none;
+}
+
+footer .aboneForm .aboneBtn {
+    width: 110px;
+    font-family: 'Sofia Pro', sans-serif;
+    padding: 6px 14px !important;
+    margin-left: -4px;
+    color:#fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition: 0.37s;
+}
+
+footer .aboneForm .aboneBtn:hover {
+    background-color: #fff;
+    color: #020a20;
+}
+
+.socialLinks i {
+    color: white;
+    font-size: 20px;
+    /* padding-right: 3.7rem; */
+    transition: 0.37s;
+}
+
+.socialLinks i:hover {
+    color: #a1a1a1;
+}
+
+.copyright {
+    font-size: 11px;
+}
+
+/*! Kariyer Page Start */
+
+.hero-career {
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient(to top, rgba(3, 10, 32, 0.8) 0, rgba(3, 10, 32, 0.7) 60%, rgba(3, 10, 32, 0.8) 100%), url("../img/career-background.jpeg");
+    background-position: top;
+    /* background-position: 50% 10%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.37s;
+}
+
+.page-title-career {
+    font-family: "abril-text" !important;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    transition: 0.37s;
+}
+
+.main-top-title {
+    font-family: "abril-text" !important;
+    letter-spacing: 2px;
+    color: #990033;
+}
+
+.main-top-p {
+    font-family: "abril-text" !important;
+    font-size: 18px;
+}
+
+.career-slider {
+    min-height: 400px;
+    max-height: 400px;
+    background-image: linear-gradient(to top, rgba(3, 10, 32, 0.8) 0, rgba(3, 10, 32, 0.7) 60%, rgba(3, 10, 32, 0.8) 100%), url("../img/career-1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.37s;
+}
+
+.career-testimonial img {
+    border-radius: 50%;
+    max-width: 120px;
+}
+
+.testimonial-desc {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.testimonial-name {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.career-basvuru {
+    min-height: 300px;
+    max-height: 310px;
+    background-image: linear-gradient(to top, rgba(3, 10, 32, 0.8) 0, rgba(3, 10, 32, 0.7) 60%, rgba(3, 10, 32, 0.8) 100%), url("../img/career-basvuru-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.37s;
+}
+
+.basvuru-title {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.basvurBtn {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    width: 80px;
+    color: #c1c1c1;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    transition: 0.37s;
+}
+
+.basvurBtn:hover {
+    background-color: #fff;
+    color: #020a20;
+}
+
+/*! Hakkımızda Page Start */
+
+.hero-about {
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient(to top, rgba(3, 10, 32, 0.8) 0, rgba(3, 10, 32, 0.7) 60%, rgba(3, 10, 32, 0.8) 100%), url("../img/about-bg.jpeg");
+    /* background-position: center; */
+    background-position: 50% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.37s;
+}
+
+.about-main-nav {
+    margin-top: 90px;
+}
+
+.about-main-nav ul {
+    list-style: none;
+}
+
+.about-main-nav li {
+    margin: 0;
+    padding: 0;
+    color: #b1b1b1;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.about-main-nav a {
+    text-decoration: none;
+    color: #b1b1b1;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: 0.37s;
+}
+
+.about-main-nav .active {
+    color: #990033;
+}
+
+.about-main-nav a:hover {
+    color: #990033;
+}
+
+.about-main-content h5 {
+    color: #990033;
+    font-size: 16px;
+    margin: 20px 0 !important;
+}
+
+.about-main-content {
+    margin-bottom: 90px;
+}
+
+.about-main-content p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.about-content-2, .about-content-3 {
+    display: none;
+}
+
+.about-contactus {
+    min-height: 300px;
+    max-height: 350px;
+    background-image: linear-gradient(to top, rgba(3, 10, 32, 0.8) 0, rgba(3, 10, 32, 0.7) 60%, rgba(3, 10, 32, 0.8) 100%), url("../img/about-contact-us-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.37s;
+}
+
+.about-contactus-content {
+    line-height: 25px;
+}
+
+/*! Hizmetlerimiz Page Start */
+
+.hero-services {
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient(to top, rgba(3, 10, 32, 0.8) 0, rgba(3, 10, 32, 0.7) 60%, rgba(3, 10, 32, 0.8) 100%), url("../img/services-bg.jpg");
+    /* background-position: center; */
+    background-position: 50% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.37s;
+}
+
+.services-main-title h3 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #990033;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+}
+.services-main-title p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.services-main-bottom h3 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #990033;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.services-links ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+.services-links li {
+    padding-bottom: 1rem;
+}
+
+.services-links a {
+    text-decoration: none;
+    color: #020a20;
+    font-size: 16px;
+    transition: 0.37s;
+}
+
+.services-links a:hover {
+    color: #990033;
+}
+
+/*! Mobile */
+
+@media screen and (max-width:1200px) {
+    .footerMidleNav, .footerRightNav {
+        display: block !important;
+    }
+    .footerRightNavTitle {
+        display: none;
+    }
+    .footer-nav ul {
+        margin: 0;
+    }
+    footer .aboneForm .aboneBtn {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .aboneSection {
+        text-align: center;
+    }
+    .socialSection {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto !important;
+        margin-top: 15px !important;
+    }
+    .socialLinks {
+        width: 100%;
+    }
+    .copyrightSection {
+        width: 100%;
+        margin-top: 25px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .page-title {
+        margin: 0 !important;
+        margin-top: -30px !important;
+        padding: 0 !important;
+        padding-bottom: 100px !important;
+    }
+
+    .widget,
+    .widget-title {
+        text-align: center;
+    }
+
+    .teamCardArea {
+        display: block;
+    }
+
+    footer .container {
+        width: 95%;
+    }
+
+    .footerRightNav {
+        display: none !important;
+    }
+
+    .footerSection {
+        text-align: center;
+    }
+
+    .footer-news {
+        width: 100%;
+    }
+
+    .footerMiddleRightNavSection {
+        width: 100%;
+    }
+
+    .footerMidleNav {
+        width: 100%;
+    }
+
+    .aboneSection {
+        margin-top: -60px !important;
+    }
+
+    /*! Kariyer Page */
+
+    .hero-career {
+        height: 250px;
+    }
+
+    .page-title-career {
+        margin-top: -100px !important;
+    }
+
+    /*! Hakkında Page */
+
+    .hero-about {
+        height: 250px;
+    }
+
+    .about-main-nav li {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 0 1.5rem 0;
+    }
+
+    /*! Hizmetlerimiz Page */
+
+    .hero-services {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:451px) {
+    .aboneSection {
+        display: block !important;
+        width: 97% !important;
+        margin: auto !important;
+        margin-top: -50px !important;
+    }
+
+    .aboneSection input::placeholder {
+        text-align: center;
+    }
+
+    .aboneSection input, .aboneBtn {
+        width: 350px !important;
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .aboneSection input, .aboneBtn {
+        width: 280px !important;
+        margin-left: 0px !important;
+    }
+}
