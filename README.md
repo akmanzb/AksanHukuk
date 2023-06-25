@@ -1,5 +1,5 @@
 # AksanHukukClone
-Neos Yazılım eğitimi için HTML - CSS - BOOTSTRAP ile geliştirdiğim aksan hukuk clone projesi
+Neos Yazılım eğitimi için HTML - CSS - BOOTSTRAP ile geliştirdiğim mobile uyumlu aksan hukuk clone projesi
 
 # Pages
 - team
